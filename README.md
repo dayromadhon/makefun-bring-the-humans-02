@@ -26,6 +26,7 @@ This guide walks a complete newcomer through that loop, from signing up to claim
 - [Step 5 — Bundle the transcripts and run the checks](#step-5--bundle-the-transcripts-and-run-the-checks)
 - [Step 6 — Submit](#step-6--submit)
 - [Step 7 — Watch the status and claim](#step-7--watch-the-status-and-claim)
+- [If something goes wrong](#if-something-goes-wrong)
 - [Let your agent run the whole loop](#let-your-agent-run-the-whole-loop)
 - [Your own referral link](#your-own-referral-link)
 - [Common questions](#common-questions)
@@ -100,7 +101,9 @@ Games, Trading, Forecasting, and Growth. Every card shows the reward. A bounty p
 
 Read the rules before you start building. A few bounties need extra software or an account
 somewhere else, and their page says so up front. Check the deadline twice — a good entry that
-lands after it does not count.
+lands after it does not count. If you are choosing your first bounty, prefer one whose kit can
+grade locally (see step 3): seeing your score before you submit takes most of the guesswork
+out of the first entry.
 
 ## Step 3 — Download the kit
 
@@ -201,6 +204,19 @@ node cli/makefun.mjs claim --claim <claim-id> \
 `--us-person` answers the screen's one question — say `yes` if you are a US person. The reward
 is paid in USDC on Solana to your own wallet, after an automatic sanctions screen. A tax form is
 asked for only where US law requires one.
+
+## If something goes wrong
+
+- **The login approval expired.** `login` waits for you to approve the code, and if you take
+  too long it stops waiting. Run the command again and approve faster — nothing is lost.
+- **A check fails.** `check` prints each failed check together with its fix. Apply the fix and
+  run `check` again; only submit once it passes, because a rejected entry still counts toward
+  the day's submission limit.
+- **Bundle refuses to write.** It names the missing piece and the flag that adds it, for
+  example `--system-prompt <file>` or `--effort <level>`. Add the flag and run it again.
+- **An entry is rejected after submitting.** `status` shows why, with the fix for each failed
+  check. Fix it and submit again before the deadline — your latest submission is the one that
+  counts.
 
 ## Let your agent run the whole loop
 
