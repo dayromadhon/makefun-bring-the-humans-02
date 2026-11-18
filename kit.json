@@ -1,0 +1,63 @@
+{
+  "format": "agent-fun/kit/v1",
+  "competition": "bring-the-humans-02",
+  "phase": "dev",
+  "bundle_sha256": "ace03e0f38b64c72a369dc4c891e91e7c1e08035fd66c73f1a000bc6f17fd901",
+  "dataset_sha256": null,
+  "harness_version": "harness@abd25e4b33d7b7588b8c06d19a97493e0773aa994078c1a79cc89248f5dce65f node v26.13.1",
+  "scorer_version": "scorer@a3fd8fbf965211dac0d76f162c7cdbd8e72cf773b92e4c3853b632214446bdc0",
+  "pricing_rev": "c6fcfac2cd8c1a316582690b02362df43ca26403f81019dbc528d75df1fb04e0",
+  "protocol": "agent-fun/referral/v1",
+  "files": [
+    {
+      "path": "RULES.txt",
+      "sha256": "3846d3b1e10cfba669ecb66df0042762e6562b136a676ca51df8c21738e08ba0",
+      "size": 78443
+    },
+    {
+      "path": "cli/makefun.mjs",
+      "sha256": "1ff9496fc1eefd756950092653597097715ad6ef7e3f96b11fee6e589a468e4e",
+      "size": 14752829
+    },
+    {
+      "path": "cli/site.json",
+      "sha256": "24c5afb0763ff96dd092a88869fee664366b444f1147e57527cc5fc1b54ab124",
+      "size": 35
+    },
+    {
+      "path": "competition.yaml",
+      "sha256": "ae7b62505300aaa356e684cbabd10ec381390045af46d68ee55a21c30a6a9b8e",
+      "size": 55923
+    },
+    {
+      "path": "harness/CODE.sha256",
+      "sha256": "55c6c4c924bfbd59c7ad8279515656a803f66836d959de3c18ddf140ac0494b0",
+      "size": 16625
+    },
+    {
+      "path": "harness/SOURCES.sha256",
+      "sha256": "af97eabcace7610d2cc2350719cf83e2d703e52dc11dd56dcf23c41ebe552ebc",
+      "size": 16625
+    },
+    {
+      "path": "harness/harness-src.tar.gz",
+      "sha256": "4e35711f720f9152bf0aadca452ea6cf3065303ae14650735a1e394405bf4515",
+      "size": 2344178
+    },
+    {
+      "path": "harness/harness-src.tar.gz.sha256",
+      "sha256": "11d2b2e404ce6273dd7f3c9ed44e028bf3dd667cd78f42dca225089403c8dbb2",
+      "size": 85
+    },
+    {
+      "path": "starter/README.md",
+      "sha256": "1c42d97d4f1967f7dfc6f48b10d9c784e58aa9a6a8064202df81d04276642119",
+      "size": 15010
+    },
+    {
+      "path": "starter/screenshot.png",
+      "sha256": "d6e0faf440a5ae27c3c5ee1e4498cbddfd54e2b157364d54e6b96569b1df88f7",
+      "size": 1123080
+    }
+  ]
+}
